@@ -1,0 +1,80 @@
+.btn {
+    padding: 12px;
+    width: 360px;
+    background-color: #EF498F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  .btn:hover {
+    background-color: #ac1a57; 
+  }
+    
+  .form {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fbfbfb
+  }
+  
+  .form_into {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 380px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+  
+  }
+  
+  .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  .images {
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .email,
+  .password {
+    padding: 12px;
+    width: 100%; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    box-sizing: border-box; 
+  }
+  .section_email,
+  .section_password
+  {
+    width: 360px; 
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .section_terms{
+    margin-top: 15px;
+  }
+.label{
+    font-size: 15px;
+    font-weight: 400;
+}
+.span{
+    display: flex;
+    font-size: xx-small;
+    text-decoration: underline;
+    margin-top: 13px;
+    margin-left: 5px;
+}
